@@ -10,7 +10,7 @@ My Role :
 
 2) Preprocessing Image 
 
-- Objective : Define a function that accurately detects birds in images or tells us that there are no birds.
+- Objective : Define a function that accurately detects birds in images or tells us if there are birds to consider or not.
 - Model Choice : I utilized the YOLO model. 
 - Implementation Details : YOLO detects objects in images. I take the biggest detected bird as the output. If the precision is inferior to 0.3 I return a message
 asking the user to take another picture.
